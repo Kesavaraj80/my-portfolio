@@ -1,6 +1,6 @@
 import "./App.css";
 import { useEffect } from "react";
-import { Route, Switch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -68,7 +68,7 @@ function HomeSection(){
         </Button>
       </div>
       <div className="img_container shape-outer circle" data-aos="fade-left">
-        <img src={image} className="my_image shape-inner circle" />
+        <img src={image} className="my_image shape-inner circle" alt="Kesavaraj M" />
       </div>
     </section>
   );
