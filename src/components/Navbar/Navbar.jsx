@@ -23,7 +23,7 @@ export const Navbar = () => {
         </Link>
       </ul>
       <button className="mobile-menu-icon" onClick={()=>setMobile(!isMobile)}>
-        <i className="fas fa-bars"></i>
+        {isMobile?<i className="fas fa-times"></i>:<i className="fas fa-bars"></i>}
       </button>
     </nav>
   );
