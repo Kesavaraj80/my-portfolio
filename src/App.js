@@ -8,8 +8,9 @@ import "aos/dist/aos.css";
 
 // Components
 import { HomeSection } from "./components/Home/HomeSection";
-// import { About } from "./components/About/About";
+import { About } from "./components/About/About";
 import {Navbar } from "./components/Navbar/Navbar"
+
 
 
 
@@ -24,7 +25,7 @@ function App() {
     <div className="App">
       <Navbar />
       <HomeSection />
-      {/* <About /> */}
+      <About />
     </div>
   );
 }

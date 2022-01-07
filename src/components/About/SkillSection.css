@@ -1,0 +1,41 @@
+.skils_container {
+  padding: 15px;
+}
+.skils_List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  /* border:2px black solid; */
+  margin-left: 10px;
+}
+.skil_image {
+  height: 75px;
+  width: 75px;
+}
+
+.con_skills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .skils_container{
+        margin-top:40px;
+    }
+  .skils_List {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .skil_image {
+    height: 50px;
+    width: 50px;
+  }
+  .con_skills {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
