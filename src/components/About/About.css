@@ -45,7 +45,7 @@
   .about_section {
     flex-direction: column;
     height:100vh;
-    border: 2px red solid;
+    /* border: 2px red solid; */
   }
   .about_me_container {
     height: 50vh;
@@ -55,7 +55,7 @@
     justify-content: center;
     align-items: center;
     /* padding-right: 10px; */
-    border: 2px black solid;
+    /* border: 2px black solid; */
   }
   .base {
     margin-top: 30px;
@@ -66,7 +66,7 @@
   .container {
     height: 50vh;
     width: 100vw;
-    border: 2px black solid;
+    /* border: 2px black solid; */
   }
   .what_can_container {
     display: flex;
