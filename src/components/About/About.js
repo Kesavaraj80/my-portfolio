@@ -1,5 +1,5 @@
 import "./About.css";
-import { SkillSection } from "./SkillSection";
+// import { SkillSection } from "./SkillSection";
 
 // const skils = [html,css,js,react,redux,nodejs,mysql,mongodb];
 
@@ -46,7 +46,7 @@ export function About() {
           </div>
         </div>
       </div>
-      <SkillSection />
+      {/* <SkillSection /> */}
     </section>
     //
   );
