@@ -4,6 +4,8 @@
   justify-content: center;
   background: #f8f9fa;
   z-index: -4;
+  width: auto;
+  /* border: 2px green solid; */
 }
 
 .name_container {
@@ -36,10 +38,11 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
+    width:auto;
   }
   .name_container {
     height: 50vh;
-    width: 100vw;
+    width: auto;
   }
   .img_container {
     height: 250px;

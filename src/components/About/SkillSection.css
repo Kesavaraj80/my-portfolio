@@ -1,5 +1,6 @@
 .skils_container {
   padding: 15px;
+  height:100vh;
 }
 .skils_List {
   display: flex;

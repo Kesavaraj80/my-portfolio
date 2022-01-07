@@ -1,5 +1,8 @@
 import "./About.css";
-// import { SkillSection } from "./SkillSection";
+import { SkillSection } from "./SkillSection";
+
+// Assets
+import hello from '../../assets/hello.gif'
 
 // const skils = [html,css,js,react,redux,nodejs,mysql,mongodb];
 
@@ -9,7 +12,7 @@ export function About() {
       <div className="about_me_container">
         <h1 className="heading_1">About Me</h1>
         <p className="about_content">
-          Hi Everyone, I am Kesavaraj M from Tiruppur, Tamilnadu, India.
+          Hi <img src={hello} className="hello_gif"/> Everyone, I am Kesavaraj M from Tiruppur, Tamilnadu, India.
           <br />
           My field of Interest's are building new Web Technologies and Products
           and also in areas related to UI/UX. <br />
