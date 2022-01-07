@@ -98,7 +98,7 @@ export function SkillSection() {
 function Skils({ image, value }) {
   return (
     <Card className="skils_List">
-      <img src={image} className="skil_image"></img>
+      <img src={image} className="skil_image" alt="skil"></img>
       <div style={{ width: "575px", marginLeft: "10px" }}>
         <LinearProgressWithLabel variant="determinate" value={value} />
       </div>
