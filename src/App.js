@@ -10,7 +10,8 @@ import { Route, Switch} from "react-router-dom";
 // Components
 import { HomeSection } from "./components/Home/HomeSection";
 import { About } from "./components/About/About";
-import {Navbar } from "./components/Navbar/Navbar"
+import {Navbar } from "./components/Navbar/Navbar";
+// import Footer from './components/footer/Footer'
 
 
 
@@ -31,6 +32,7 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About />
+          {/* <Footer /> */}
         </Route>
         <Route path="/projects">project</Route>
         <Route path="/contact">contacts</Route>

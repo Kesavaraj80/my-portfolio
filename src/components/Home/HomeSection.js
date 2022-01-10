@@ -21,11 +21,11 @@ export function HomeSection() {
               .typeString(
                 '<strong><span style="font-size:2rem">Hello, I am <span style="color:#42f5c8">Kesavaraj M</span></span><br></strong> '
               )
-              .pauseFor(500)
+              .pauseFor(100)
               .typeString("<span>I am a Full Stack Developer</span> <br>")
-              .pauseFor(500)
+              .pauseFor(100)
               .typeString(
-                "I specialize in developing and deploying responsive websites and web applications"
+                "I specialized in developing and deploying responsive websites and web applications"
               )
               .start();
           }} />
@@ -33,7 +33,7 @@ export function HomeSection() {
           Know More
         </Button>
       </div>
-      <div className="img_container shape-outer circle" data-aos="fade-left">
+      <div className="img_container shape-outer circle">
         <img src={image} className="my_image shape-inner circle" alt="Kesavaraj" />
       </div>
     </section>

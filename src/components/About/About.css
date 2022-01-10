@@ -4,6 +4,7 @@
   height: 100vh;
   width: auto;
   /* border:2px red solid; */
+  /* z-index: -1; */
 }
 
 .about_me_container {
