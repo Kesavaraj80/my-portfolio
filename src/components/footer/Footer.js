@@ -3,10 +3,10 @@ import "./footer.css";
 
 const Footer = () => {
     return (
-        <footer className="footer">
-            <h1>Copyright</h1>
-        </footer>
-    )
+      <div className="footer">
+        <p>Made with ❤️ by Kesavaraj M</p>
+      </div>
+    );
 }
 
 export default Footer

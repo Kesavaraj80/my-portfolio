@@ -1,7 +1,6 @@
 import "./About.css";
 import AOS from "aos";
 // import { SkillSection } from "./SkillSection";
-
 // Assets
 import hello from '../../assets/hello.gif'
 import { useEffect } from "react";
@@ -29,7 +28,7 @@ export function About() {
         </p>
       </div>
       <div className="container" data-aos="fade-up">
-        <h1>What I do?</h1>
+        <h1 className="title">What I do?</h1>
         <div className="what_can_container">
           <div
             className="frontnend_container base"

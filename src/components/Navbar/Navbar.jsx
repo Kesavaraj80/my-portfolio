@@ -8,12 +8,18 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <h3 className="logo">My Portfolio</h3>
-      <ul className={isMobile ? "nav-links-mobile" : "nav-links"} onClick={()=>setMobile(false)}>
+      <ul
+        className={isMobile ? "nav-links-mobile" : "nav-links"}
+        onClick={() => setMobile(false)}
+      >
         <Link to="/" className="home">
           <li>Home</li>
         </Link>
         <Link to="/about" className="about">
           <li>About</li>
+        </Link>
+        <Link to="/skils" className="about">
+          <li>Skils</li>
         </Link>
         <Link to="/projects" className="projects">
           <li>Projects</li>
@@ -22,8 +28,12 @@ export const Navbar = () => {
           <li>Contact</li>
         </Link>
       </ul>
-      <button className="mobile-menu-icon" onClick={()=>setMobile(!isMobile)}>
-        {isMobile?<i className="fas fa-times"></i>:<i className="fas fa-bars"></i>}
+      <button className="mobile-menu-icon" onClick={() => setMobile(!isMobile)}>
+        {isMobile ? (
+          <i className="fas fa-times"></i>
+        ) : (
+          <i className="fas fa-bars"></i>
+        )}
       </button>
     </nav>
   );

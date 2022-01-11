@@ -19,11 +19,12 @@
   display: flex;
   flex-wrap: wrap;
 }
+.bar{
+  width:575px;
+  margin-left:10px;
+}
 
 @media screen and (max-width: 600px) {
-    .skils_container{
-        margin-top:40px;
-    }
   .skils_List {
     display: flex;
     justify-content: center;
@@ -38,5 +39,8 @@
   .con_skills {
     display: flex;
     flex-wrap: wrap;
+  }
+  .bar{
+    width:320px;
   }
 }

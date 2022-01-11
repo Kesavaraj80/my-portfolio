@@ -11,7 +11,8 @@ import { Route, Switch} from "react-router-dom";
 import { HomeSection } from "./components/Home/HomeSection";
 import { About } from "./components/About/About";
 import {Navbar } from "./components/Navbar/Navbar";
-// import Footer from './components/footer/Footer'
+import Footer from './components/footer/Footer';
+import {SkillSection} from './components/About/SkillSection'
 
 
 
@@ -32,10 +33,20 @@ function App() {
         </Route>
         <Route exact path="/about">
           <About />
-          {/* <Footer /> */}
+          <Footer />
         </Route>
-        <Route path="/projects">project</Route>
-        <Route path="/contact">contacts</Route>
+        <Route exact path="/skils">
+          <SkillSection />
+          <Footer />
+        </Route>
+        <Route path="/projects">
+          project
+          <Footer />
+        </Route>
+        <Route path="/contact">
+          contacts
+          <Footer />
+        </Route>
       </Switch>
     </div>
   );

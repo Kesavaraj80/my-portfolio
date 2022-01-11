@@ -4,11 +4,13 @@ import image from "../../assets/myImg2.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { useHistory } from "react-router-dom";
 
 // Css
 import "./HomeSection.css";
 
 export function HomeSection() {
+  let history = useHistory();
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
@@ -28,13 +30,22 @@ export function HomeSection() {
                 "I specialized in developing and deploying responsive websites and web applications"
               )
               .start();
-          }} />
-        <Button variant="outlined" style={{ marginTop: "50px" }}>
+          }}
+        />
+        <Button
+          variant="outlined"
+          style={{ marginTop: "50px" }}
+          onClick={() => history.push("/about")}
+        >
           Know More
         </Button>
       </div>
       <div className="img_container shape-outer circle">
-        <img src={image} className="my_image shape-inner circle" alt="Kesavaraj" />
+        <img
+          src={image}
+          className="my_image shape-inner circle"
+          alt="Kesavaraj"
+        />
       </div>
     </section>
   );

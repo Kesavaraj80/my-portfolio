@@ -13,7 +13,7 @@ import express from "../../assets/skils/express.svg";
 import material from '../../assets/skils/materialui.png';
 // Material Ui
 import LinearProgress from "@mui/material/LinearProgress";
-import Card from "@mui/material/Card";
+// import Card from "@mui/material/Card";
 // import LinearProgress from "@mui/material/LinearProgress";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
@@ -79,7 +79,7 @@ function LinearProgressWithLabel(props) {
 export function SkillSection() {
   return (
     <div className="skils_container">
-      <h1>My Skils</h1>
+      {/* <h1>My Skils</h1> */}
       <div className="con_skills">
         {skils.map((skil, index) => {
           return (
@@ -97,11 +97,11 @@ export function SkillSection() {
 
 function Skils({ image, value }) {
   return (
-    <Card className="skils_List">
+    <div className="skils_List">
       <img src={image} className="skil_image" alt="skil"></img>
-      <div style={{ width: "575px", marginLeft: "10px" }}>
+      <div  className="bar">
         <LinearProgressWithLabel variant="determinate" value={value} />
       </div>
-    </Card>
+    </div>
   );
 }
